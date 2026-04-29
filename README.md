@@ -1,21 +1,22 @@
-# E-Commerce Sales & Customer Retention Dashboard
+# 🛒 E-Commerce Sales & Customer Retention Dashboard
+
 An end-to-end business intelligence project analyzing 2+ years of Brazilian e-commerce transaction data (Olist dataset) to monitor sales performance and customer retention dynamics.
 
-## Dashboard
+## 📊 Dashboard
 
-**[View Live Dashboard on Tableau Public]([https://public.tableau.com/views/E-commerceSalesPerformanceDashboard_17774773024150/OlistE-CommerceSalesDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link])**
+🔗 **[View Live Dashboard on Tableau Public](https://public.tableau.com/)**
 
 ![Dashboard Preview](dashboard_preview.png)
 
 ---
 
-## Objective
+## 🎯 Objective
 
 To provide product management with a clear view of revenue drivers, buyer churn, and customer lifetime value — transforming raw transactional data into actionable business insights.
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 | Tool | Usage |
 |---|---|
@@ -25,7 +26,7 @@ To provide product management with a clear view of revenue drivers, buyer churn,
 
 ---
 
-## Metrics Calculated
+## 📐 Metrics Calculated
 
 **Sales Metrics**
 - Gross Revenue — total monthly revenue from delivered orders
@@ -45,20 +46,22 @@ To provide product management with a clear view of revenue drivers, buyer churn,
 
 ---
 
-## Data Source
+## 🗃️ Data Source
 
 **Brazilian E-Commerce Public Dataset by Olist** — available on [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
 Tables used:
 - `olist_orders_dataset.csv` — orders and statuses
 - `olist_order_payments_dataset.csv` — payment amounts
+- `olist_order_items_dataset.csv` — items per order
 - `olist_customers_dataset.csv` — customer data
+- `olist_products_dataset.csv` — product categories
 
 > Only orders with status `delivered` were included in the analysis.
 
 ---
 
-## Key SQL Techniques
+## 🧠 Key SQL Techniques
 
 - **CTEs (Common Table Expressions)** — modular query structure across 6+ chained CTEs
 - **Window Functions** — `LAG()` and `LEAD()` for sequential purchase history analysis to classify buyers as New, Returning, or Churned
@@ -66,7 +69,7 @@ Tables used:
 
 ---
 
-## Key Findings
+## 📈 Key Findings
 
 - **Average Churn Rate ~99%** — the vast majority of customers make only one purchase, revealing a one-time purchase behavior typical for this market
 - **Black Friday Effect** — clear revenue spike in November 2017 (+37% vs October 2017)
@@ -75,7 +78,7 @@ Tables used:
 
 ---
 
-## Repository Structure
+## 📁 Repository Structure
 
 ```
 olist-ecommerce-dashboard/
@@ -87,7 +90,7 @@ olist-ecommerce-dashboard/
 
 ---
 
-## Author
+## 👤 Author
 
 **Your Name**
-[LinkedIn](www.linkedin.com/in/danylo-demchuk-da) · [Tableau Public](https://public.tableau.com/app/profile/.80735716/vizzes)
+[LinkedIn](https://linkedin.com/in/yourprofile) · [Tableau Public](https://public.tableau.com/)
