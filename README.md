@@ -3,7 +3,7 @@ An end-to-end business intelligence project analyzing 2+ years of Brazilian e-co
 
 ## Dashboard
 
-**[View Live Dashboard on Tableau Public]([https://public.tableau.com/](https://public.tableau.com/views/E-commerceSalesPerformanceDashboard_17774773024150/OlistE-CommerceSalesDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))**
+**[View Live Dashboard on Tableau Public]([https://public.tableau.com/views/E-commerceSalesPerformanceDashboard_17774773024150/OlistE-CommerceSalesDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link])**
 
 ![Dashboard Preview](dashboard_preview.png)
 
