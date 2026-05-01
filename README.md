@@ -89,5 +89,5 @@ olist-ecommerce-dashboard/
 
 ## Author
 
-**Your Name**
+**Danylo Demchuk**
 [LinkedIn](https://linkedin.com/in/danylo-demchuk-da) · [Tableau Public](https://public.tableau.com/app/profile/.80735716/vizzes)
